@@ -1,3 +1,141 @@
+html, body {    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: white;
+  max-height: 695px;
+  overflow: hidden;
+}
+
+.top-right,
+.bottom-left,
+.centered,
+.bottom-right {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+/*header under picture*/
+.left {
+    position:absolute;
+    top: 240px;
+    left: 70px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #4c4c32;
+    font-size: 20px;
+}
+/* links */
+.left-middle {
+        color:#4c4c32;
+  position: absolute;
+  top: 330px;
+  left: 107px;
+font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+
+}
+/* name*/
+.top-left {
+  position: absolute;
+  top: 90px;
+  left: 355px;
+font-family: 'Julius Sans One', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+/* none */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+}
+
+/* date modified */
+.bottom-left {
+  color: #7fbec9;
+  position: absolute;
+  bottom: 8px;
+  left: 24px;
+    font-size: 10px;
+}
+
+/* date modified
+.bottom-right{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+} */
+
+/* info paragraph */
+.centered {
+  position: absolute;
+  top: 270px;
+  left: 417px;
+    font-size: 18px;
+}
+
 h1 {
     font-family: 'Roboto';
 }
+
+header.masthead {
+  padding-top: 0rem;
+  background-image: url("graphics/primary-image.jpg");
+  padding-bottom: calc(10rem - 56px);
+  background-position: center center;
+  background-size: contain;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+a:link,
+a:visited,
+a:hover {
+      text-decoration: none;
+    color:#4c4c32;
+}
+
+a:hover {
+    color: #7fbec9;
+    font-size: 28px;
+}
+
